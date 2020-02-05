@@ -1,7 +1,7 @@
 # LLVM Projects
 
 ## Introduction
-These LLVM projects are part of Advanced Compiler course. There are four part (project) in total, from very simple static, dynamic instructions counting to ... .
+These LLVM projects are part of Advanced Compiler course. There are four parts (projects) in total, from very simple static, dynamic instructions counting to reaching definition analysis, and ...
 
 ## Part 1
 Part1 has three sections:
