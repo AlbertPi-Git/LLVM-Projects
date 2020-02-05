@@ -8,6 +8,11 @@ All pass source codes of each part ar in the 'Passes' directory. 'Part1,2,3,4' a
 
 ## Part 1
 Part1 has three sections:
-1.  counting number of static instructions in functions
-2.  counting number of dynamic instructions in functions
-3.  obtain the runtime branch bias information in functions
+1.  counting number of static instructions in functions.
+2.  counting number of dynamic instructions in functions.
+3.  obtain the runtime branch bias information in functions.
+
+## Part 2
+Part2 has two sections:
+1.  implement the worklist algorithm in the generic dataflow analysis class using lattice.
+2.  implement the subclasses of Info class and DataFlowAnalysis class that are used for reaching definition analysis.
