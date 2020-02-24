@@ -308,7 +308,7 @@ class DataFlowAnalysis {
 				Info::join(InfoOut[0],oldInfo,newInfo);		//Combine the old info and output of flowfunction to generate new info for this outgoingEdge (since the output info is the same for all outgoing edges, thus, there is only one element in InfoOut)
 				if(false==Info::equals(newInfo,oldInfo)){	//If the new info doesn't equal to old info, it means that it doesn't reach fixed point, add it back to the worklist.
 					EdgeToInfo[std::make_pair(nodeIndex,dstIndex)]=newInfo;
-					worklist.push_back(nodeIndex);
+					worklist.push_back(dstIndex);
 				}
 			}
 		}
