@@ -16,3 +16,9 @@ Part1 has three sections:
 Part2 has two sections:
 1.  implement the worklist algorithm in the generic dataflow analysis class using lattice.
 2.  implement the subclasses of Info class and DataFlowAnalysis class that are used for reaching definition analysis.
+
+## Part 3
+Part3 has three sections:
+1.  implement the backward edge map initialization in the dataflow analysis framework.
+2.  implement the subclass of Info class and DataFlowAnalysis class that are used for variable liveness analysis.
+2.  implement the subclasses of Info class and DataFlowAnalysis class that are used for may point to analysis.
